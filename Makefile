@@ -5,8 +5,8 @@ TARGET = s2rgb
 
 all: $(TARGET)
 
-$(TARGET) : cmd/s2rgb/main.go
-	$(GO) build -o $(BIN)/$(TARGET) $^ 
+s2rgb : cmd/s2rgb/main.go
+	$(GO) build -o $(BIN)/$@ $^ 
 
 clean:
 	rm $(BIN)/*
