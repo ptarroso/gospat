@@ -2,7 +2,7 @@
 
 This repository contains experimental projects using the  [Go programming language](https://go.dev) for spatial data analysis. This is evidently a work in progress, with future developments anticipated (but then reality comes).
 
-With Go language installed, just run make to build executable files for your platform.
+With Go language installed, just run `make` command at the project folder to build executable files for your platform.
 
 ## Current Features
 
